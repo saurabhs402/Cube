@@ -1,6 +1,8 @@
-# Profile View
+# Cube
 
 This React application displays a list of customers and allows users to select individual customers from the list. It's designed with a simple, clean interface similar to a task or file list.
+Deployed Link: https://cube-saurabh.vercel.app/
+
 
 ## Prerequisites
 Ensure you have Node.js and npm (or yarn) installed on your machine.
