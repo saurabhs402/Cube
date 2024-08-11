@@ -1,0 +1,83 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Center the heading vertically */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  height: 100vh;
+  /* Ensure the app takes the full height of the viewport */
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.customer-list {
+  flex: 1;
+  max-width: 300px;
+  /* Adjust this width as needed */
+  margin-right: 20px;
+  /* Space between the list and details */
+  height: 80vh;
+  /* Set a fixed height for the container */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  padding: 10px;
+  background-color: rgb(229 231 235);;
+  border-radius: 5px;
+}
+
+.customer-details {
+  flex: 2;
+  max-width: 100%;
+  height: 80vh;
+  /* Match height with customer list */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  padding: 10px;
+  background-color: rgb(229 231 235);;
+  /* Match background with customer list */
+  border-radius: 5px;
+}
+
+.customer-info {
+  text-align: center;
+}
+
+.customer-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.customer-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.customer-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customer-item:hover {
+  background-color: rgb(209 213 219);
+}
+
+.customer-item.selected {
+  background-color: rgb(156 163 175);
+  font-weight: bold;
+}
+.bg{
+    background-color: #f0f0f0;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Optional: Matches the background color */
+  padding: 10px 0;
+}
